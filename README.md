@@ -20,8 +20,8 @@ Environment setup
 
 ----
 ### 3. How to start
-#### At III_Netwrok_Tool folder, run the main file with the path of input file and color_list file
-    python dash_cytoscape_master/main.py $input_file $color_list_file
+#### At III_Netwrok_Tool folder/dash_cytoscape_master/, run the main.py
+    python main.py
 
 #### If the process success, terminal will show this
     Running on http://127.0.0.1:8050/
@@ -37,12 +37,17 @@ Environment setup
 ----
 ### 4. Demo
 
-    python dash_cytoscape_master/main.py result_demo1.xlsx color_list_demo1.xlsx
+    python dash_cytoscape_master/main.py
     
 ![demo1](/readme image/擷取.PNG)
 
 ----
 ### 5. Usage
+
+#### Upload data file 
+
+
+
 #### You have to use unfocus button to unfocus
 
 ![focus](/readme image/chrome-capture.gif)
