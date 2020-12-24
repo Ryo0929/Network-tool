@@ -35,29 +35,23 @@ Environment setup
 #### Then go to http://127.0.0.1:8050/. If the graph does not show up, please wait few seconds and reload the page.
 
 ----
-### 4. Demo
+### 4. Usage
+#### Use upload button to upload data file and color file 
 
-    python dash_cytoscape_master/main.py
-    
-![demo1](/readme image/擷取.PNG)
+![image](https://github.com/Ryo0929/Network-tool/blob/main/readme%20image/chrome-capture%20(1).gif)
 
-----
-### 5. Usage
+![image](https://github.com/Ryo0929/Network-tool/blob/main/readme%20image/chrome-capture%20(2).gif)
 
-#### Upload data file 
+#### You can focus a node by clicking the node, and unfocus it using "unfocus" button
 
-
-
-#### You have to use unfocus button to unfocus
-
-![focus](/readme image/chrome-capture.gif)
+![image](https://github.com/Ryo0929/Network-tool/blob/main/readme%20image/chrome-capture%20(5).gif)
 
 #### Change layout, some layouts might take few seconds to process
-![layout](/readme image/chrome-capture2.gif)
+![image](https://github.com/Ryo0929/Network-tool/blob/main/readme%20image/chrome-capture%20(3).gif)
 
 #### You could change "count" value threshold by adjust the filter
 #### Warrning: Seting a too low filter could makes process time very long
-![filter](/readme image/chrome-capture3.gif)
+![image](https://github.com/Ryo0929/Network-tool/blob/main/readme%20image/chrome-capture%20(4).gif)
 
 ----
 ### 6. Excel input format
@@ -65,10 +59,10 @@ Environment setup
 ### Input file
 
 #### The first sheet should be named edge_count, contaning three column names:'from', 'to' and 'count'
-![node_count](/readme image/擷取2.PNG)
+![image](https://github.com/Ryo0929/Network-tool/blob/main/readme%20image/%E6%93%B7%E5%8F%962.PNG)
 #### The second sheet should be named node_count, contaning two column names:'tag' and 'count'
 #### Warning: Both files must have data and column names to draw the graph
-![edge_count](/readme image/擷取3.PNG)
+![image](https://github.com/Ryo0929/Network-tool/blob/main/readme%20image/%E6%93%B7%E5%8F%963.PNG)
 
 
 
@@ -76,4 +70,4 @@ Environment setup
 #### In color list file, the program will get the first sheet as reference. 
 #### The first row is color code, which will be taken as color code by words under first row. 
 #### For example, 'B99eto-lR0q''s color will be '#FFF529'
-![color_list](/readme image/擷取4.PNG)
+![image](https://github.com/Ryo0929/Network-tool/blob/main/readme%20image/%E6%93%B7%E5%8F%964.PNG)
